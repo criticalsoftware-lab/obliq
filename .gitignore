@@ -1,0 +1,9 @@
+[Bb]in/
+[Oo]bj/
+.DS_Store
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+.gemini/

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <TargetExt>.rhp</TargetExt>
+    <Version>1.1.0</Version>
+    <Title>Obliq</Title>
+    <Authors>noahk (forked from criticalsoftware-lab)</Authors>
+    <Description>Obliq plug-in for Rhinoceros®. A modern C# port of the original military/cabinet oblique projection utilities. Forked from criticalsoftware-lab/obliq to support Rhino 8 on macOS and Windows.</Description>
+    <RepositoryUrl>https://github.com/KnuckKnuck0123/obliq</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="8.*" />
+  </ItemGroup>
+</Project>
