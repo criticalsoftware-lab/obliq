@@ -14,11 +14,12 @@ Obliq plug-in for Rhinoceros®. Provides utilities for working with oblique (mil
 ## Installation (Rhino 8)
 
 1. Download the latest release and unzip it as a folder named `Obliq`.
-2. Move the `Obliq` folder to your Rhino 8 plug-ins directory:
+2. **Windows**: You can simply drag and drop the `Obliq.rhp` file from the folder onto an open Rhino window to install it.
+3. Alternatively (or for **macOS**), move the `Obliq` folder to your Rhino 8 plug-ins directory:
    * **macOS**: `~/Library/Application Support/McNeel/Rhinoceros/8.0/Plug-ins/`
    * **Windows**: `C:\Program Files\Rhino 8\Plug-ins` (or `%APPDATA%\McNeel\Rhinoceros\8.0\Plug-ins\`)
-3. **Verify**: Open Rhino 8 and run the `_PlugInManager` command. Ensure `Obliq` is listed and enabled. If it isn't listed, click "Install..." and select `Obliq.rhp` from the folder you moved.
-4. Restart Rhino to register all commands.
+4. **Verify**: Open Rhino 8 and run the `_PlugInManager` command. Ensure `Obliq` is listed and enabled. If it isn't listed, click "Install..." and select `Obliq.rhp` from the folder you moved.
+5. Restart Rhino to register all commands.
 
 ## Usage
 
