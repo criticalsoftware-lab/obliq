@@ -1,19 +1,20 @@
 # obliq
-Obliq plug-in for Rhinoceros®. Provides utilities for working with oblique (military, cabinet, etc...) projections in a non-destructive way.
+Obliq plug-in for Rhinoceros®. Provides utilities for working with oblique (military, cabinet, etc...) projections in a non-destructive way. Written in C# / RhinoCommon for both Mac and Windows.
 
 ![Project Screenshot](screenshot.PNG)
 
 # Installation (windows)
-1. Download RHP file from [https://github.com/criticalsoftware-lab/obliq/releases]
-2. Place in your Rhino 8 installation folder (C:\Program Files\Rhino 8\Plug-ins\)
-3. Make sure you have the latest Rhino 8 service release.
-4. Drag the RHP file from the Plug-ins folder into the Rhino viewport.
+1. Make sure you have the latest Rhino 8 service release.
+2. Run PackageManger from Rhino. Search for Obliq.
+3. Click install. Restart Rhino.
 
 # Usage
+
+Obliq is designed to reduce redundancy when producing oblique projection drawings. It works a kind of hack on the viewport, so it's important to understand that the geometric distortion is **visual only**. It does not affect the original geometry. It is primarily designed for the production of line drawings using the familiar Make2D hidden line pipeline.
 **Commands:**
 
-**Obliq** -> Creates new custom viewport that displays a perfect oblique projection aligned on the Z axis. Also known as a "military" projection or plan oblique.
+**Obliq** -> Creates new custom viewport that displays a perfect oblique projection aligned on the Z axis. Also known as a "military" projection or plan oblique. Opens a floating parallel "Oblique" viewport and binds a display conduit that pushes the oblique shear onto the pipeline's model-transform stack (plan oblique, 90° / 1.0). Geometry is never modified. NOTE: this viewport is for preview purposes only, you cannot model accurately in this viewport due to the custom projection being applied.
 
-**ObliqueMake2D** -> Generates a flat, 2D hidden-line drawing of the selected items (might take some time, depending on the amount of geometry).
+**ObliqueMake2D** -> Generates a flat, 2D hidden-line drawing of the selected items based on the current projection set in the Obliq viewport. Output goes to layers `ObliqueMake2D::Visible` and `ObliqueMake2D::Hidden` (dashed if a `Dashed` linetype exists).
 
-**ObliqueCurveMake2D** -> Takes a selection of curves and applies an oblique projection, flattening them onto the CPlane.
+**ObliqueCurveMake2D [depreciated]** -> Takes a selection of curves and applies an oblique projection, flattening them onto the CPlane.

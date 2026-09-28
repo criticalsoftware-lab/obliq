@@ -1,0 +1,14 @@
+/Users/galocanizares/SynologyDrive/05_Github/obliq/bin/Release/net7.0/obliq.deps.json
+/Users/galocanizares/SynologyDrive/05_Github/obliq/bin/Release/net7.0/obliq.runtimeconfig.json
+/Users/galocanizares/SynologyDrive/05_Github/obliq/bin/Release/net7.0/obliq.rhp
+/Users/galocanizares/SynologyDrive/05_Github/obliq/bin/Release/net7.0/obliq.pdb
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/obliq.csproj.AssemblyReference.cache
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/obliq.GeneratedMSBuildEditorConfig.editorconfig
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/obliq.AssemblyInfoInputs.cache
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/obliq.AssemblyInfo.cs
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/obliq.csproj.CoreCompileInputs.cache
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/obliq.rhp
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/refint/obliq.rhp
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/obliq.pdb
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/obliq.genruntimeconfig.cache
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Release/net7.0/ref/obliq.rhp

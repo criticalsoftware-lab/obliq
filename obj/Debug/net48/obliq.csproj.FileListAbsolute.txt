@@ -1,0 +1,9 @@
+/Users/galocanizares/SynologyDrive/05_Github/obliq/bin/Debug/net48/obliq.rhp
+/Users/galocanizares/SynologyDrive/05_Github/obliq/bin/Debug/net48/obliq.pdb
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Debug/net48/obliq.csproj.AssemblyReference.cache
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Debug/net48/obliq.GeneratedMSBuildEditorConfig.editorconfig
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Debug/net48/obliq.AssemblyInfoInputs.cache
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Debug/net48/obliq.AssemblyInfo.cs
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Debug/net48/obliq.csproj.CoreCompileInputs.cache
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Debug/net48/obliq.rhp
+/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/Debug/net48/obliq.pdb

@@ -1,0 +1,16 @@
+name: obliq
+version: 2.0.1
+authors:
+- Galo Canizares
+- Critical Software Lab
+description: >
+  Non-destructive oblique projections for Rhino: live plan-oblique (military) and cabinet
+  viewports via a display conduit, plus exact oblique Make2D.
+url: https://github.com/criticalsoftware-lab/obliq
+icon: icon.png
+keywords:
+- oblique
+- axonometric
+- make2d
+- projection
+- drawing

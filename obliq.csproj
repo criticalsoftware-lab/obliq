@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Select the framework(s) you wish to target.
+        Rhino 6: net45
+        Rhino 7: net48
+        Rhino 8 Windows: net48, net7.0, net7.0-windows, net7.0-windows10.0.22000.0, etc
+        Rhino 8 Mac: net7.0, net7.0-macos, net7.0-macos12.0, etc
+    -->
+    <!-- net7.0 loads on Rhino 8 for Mac and Windows (.NET Core runtime);
+         net48 covers Rhino 8 Windows running in .NET Framework mode. -->
+    <TargetFrameworks>net7.0;net48</TargetFrameworks>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <TargetExt>.rhp</TargetExt>
+    <NoWarn>NU1701;NETSDK1138</NoWarn>
+    <RootNamespace>obliq</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Specifies information for Assembly and Yak -->
+    <Version>2.0.1</Version>
+    <Title>Obliq</Title>
+    <Company>Critical Software Lab</Company>
+    <Description>Obliq plug-in for Rhinoceros. Provides utilities for working with oblique (military, cabinet, etc...) projections in a non-destructive way.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="8.0.23304.9001" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+</Project>
