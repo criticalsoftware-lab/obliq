@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = obliq
-build_property.ProjectDir = /Users/galocanizares/SynologyDrive/05_Github/obliq/
+build_property.ProjectDir = /Users/galocanizares/Documents/GitHub/obliq/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

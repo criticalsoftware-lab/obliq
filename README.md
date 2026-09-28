@@ -3,7 +3,7 @@ Obliq plug-in for Rhinoceros®. Provides utilities for working with oblique (mil
 
 ![Project Screenshot](screenshot.PNG)
 
-# Installation (windows)
+# Installation (Windows + Mac)
 1. Make sure you have the latest Rhino 8 service release.
 2. Run PackageManger from Rhino. Search for Obliq.
 3. Click install. Restart Rhino.

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("Obliq plug-in for Rhinoceros. Provides utilities for working with oblique (milita" +
     "ry, cabinet, etc...) projections in a non-destructive way."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.1+5d9b7fcd2ac86375fb8ad813c68e1b528e3edd42")]
 [assembly: System.Reflection.AssemblyProductAttribute("obliq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("obliq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.1.0")]

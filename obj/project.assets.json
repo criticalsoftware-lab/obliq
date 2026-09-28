@@ -493,11 +493,11 @@
   "project": {
     "version": "2.0.1",
     "restore": {
-      "projectUniqueName": "/Users/galocanizares/SynologyDrive/05_Github/obliq/obliq.csproj",
+      "projectUniqueName": "/Users/galocanizares/Documents/GitHub/obliq/obliq.csproj",
       "projectName": "obliq",
-      "projectPath": "/Users/galocanizares/SynologyDrive/05_Github/obliq/obliq.csproj",
+      "projectPath": "/Users/galocanizares/Documents/GitHub/obliq/obliq.csproj",
       "packagesPath": "/Users/galocanizares/.nuget/packages/",
-      "outputPath": "/Users/galocanizares/SynologyDrive/05_Github/obliq/obj/",
+      "outputPath": "/Users/galocanizares/Documents/GitHub/obliq/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
